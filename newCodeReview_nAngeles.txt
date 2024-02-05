@@ -1,0 +1,5 @@
+Code Review for Alex :)
+
+The greaterButton and lessButton does not produce the correct output. I believe the code is missing the 'productListBox.Items.Clear();' instead of 'Clear(); at the beginning of the method, right before populating the list with the new search results. I think the author should add comments to explain the purpose of certain code sections. 
+
+Especially when working with user input, the author should provide error handling to manage unforeseen events. I want to praise the form's aesthetic. It appears to be well-designed and eye-catching. Well done for creating a visually appealing and effective application!
